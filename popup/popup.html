@@ -1,0 +1,47 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="output.css" />
+  </head>
+  <body class="bg-gray-600 px-3 py-2">
+    <div class="flex flex-col items-center">
+      <h1 class="text-xl text-gray-100 whitespace-nowrap m-2">
+        Comparison Price
+      </h1>
+    </div>
+    <hr>
+    <button id="getCurrent" class="btn-primary my-3 text-base w-full">
+      Add Current Tab Item
+    </button>
+    <table>
+      <thead>
+        <tr>
+          <th class="text-gray-100">Name</th>
+          <th class="text-gray-100">Price</th>
+          <th class="text-gray-100">URL</th>
+          <th class="text-gray-100">Edit</th>
+        </tr>
+      </thead>
+      <tbody id="tableBody">
+        <tr>
+          <td><input id="inName" class="list-input" type="text" value="" /></td>
+          <td><input id="inPrice" class="list-input" type="number" value="" /></td>
+          <td><input id="inURL" class="list-input" type="text" value="" /></td>
+          <td><button id="inBtn" class="btn-primary w-full text-xs">Add</button></td>
+        </tr>
+        <tr>
+          <td class="py-2" colspan="3"><hr></td>
+        </tr>
+        <tr class="item">
+          <td><input class="list-input" type="text" /></td>
+          <td><input class="list-input" type="number" /></td>
+          <td><a class="btn-primary block text-center text-xs w-full px-2" href="https://www.youtube.com/" target="_blank">Test</td>
+          <td><button class="btn-danger text-xs ">Remove</button></td>
+        </tr>
+      </tbody>
+    </table>
+    <button id="removeAllBtn" class="btn-danger my-3 text-base w-full">
+      Remove All
+    </button>
+    <script src="popup.js"></script>
+  </body>
+</html>

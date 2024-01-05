@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "Comparison Price",
+    "version": "0.0.1",
+    "permissions": ["scripting", "activeTab"],
+    "description": "Save and comparison price",
+    "action":{
+        "default_popup": "popup/popup.html",
+        "default_icon": {
+            "32": "img/icon32.png",
+            "64": "img/icon64.png",
+            "128": "img/icon128.png"
+        }
+    },
+    "content_scripts": [
+        {
+            "js": ["scripts/content.js"],
+            "matches": ["<all_urls>" ]
+        }
+    ]
+}
