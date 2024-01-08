@@ -627,8 +627,52 @@ input::-webkit-outer-spin-button,
   display: table;
 }
 
+.w-4 {
+  width: 1rem;
+}
+
 .w-full {
   width: 100%;
+}
+
+.w-64 {
+  width: 16rem;
+}
+
+.w-8 {
+  width: 2rem;
+}
+
+.w-96 {
+  width: 24rem;
+}
+
+.w-1\/5 {
+  width: 20%;
+}
+
+.w-px {
+  width: 1px;
+}
+
+.w-24 {
+  width: 6rem;
+}
+
+.w-3\/12 {
+  width: 25%;
+}
+
+.w-2\/4 {
+  width: 50%;
+}
+
+.w-1\/3 {
+  width: 33.333333%;
+}
+
+.w-1\/6 {
+  width: 16.666667%;
 }
 
 .flex-col {
@@ -685,4 +729,8 @@ input::-webkit-outer-spin-button,
 .text-gray-100 {
   --tw-text-opacity: 1;
   color: rgb(243 244 246 / var(--tw-text-opacity));
+}
+
+.filter {
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
